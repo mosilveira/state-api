@@ -19,7 +19,7 @@ paths:
               $ref: '#/components/schemas/StateRequestDTO'
         required: true
       responses:
-        '200':
+        '201':
           description: OK
           content:
             '*/*':
@@ -108,8 +108,8 @@ paths:
             type: integer
             format: int64
       responses:
-        '200':
-          description: OK
+        '204':
+          description: NO CONTENT
 components:
   schemas:
     StateRequestDTO:
